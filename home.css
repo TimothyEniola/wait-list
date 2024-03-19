@@ -1,0 +1,108 @@
+@font-face {
+font-family: AvenirFont;   
+src: url(/AvenirLTStd-Book.otf);
+}
+
+
+body{
+    background-image: url(./image/image1\ \(3\).svg);
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    top: 84px;
+    width: 228px;
+    height: 80px;
+    margin-left: 600px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right, #E54130, #753ADF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: jost;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69.36px;
+    align-items: center;
+    width: 980px;
+    height: 69px;
+    margin-bottom: 16px;
+    margin-left: 260px;
+}
+h5{
+display: flex;
+justify-content: center;
+font-family: AvenirFont;
+font-weight: 200px;
+font-size: 24px;
+text-align: center;
+line-height: 32.78px;
+color: gray;
+}
+input{
+    width: 450px;
+    height: 62px;
+    border-radius: 16px;
+    background: transparent;
+    margin-left: 400px;
+    border-color: white;
+}
+button{
+    width:140px ;
+    height:70px ;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+p{
+    width: 438px;
+    height: 25px;
+    font-family: serif;
+    display: flex;
+    color: white;
+    margin-top: 25px;
+    margin-left: 400px;
+
+}
+
+.icons1{
+display: flex;
+width: 212px;
+height: 60px;
+padding: 24px;
+margin-left: 10px;
+margin-bottom: 10px;
+gap: 30px;
+}
+
+.available{
+display: flex;
+border-radius: 16px;
+
+}
+.can{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+h6{
+    color: white;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24.59px;
+}
+.state{
+display: flex;
+justify-content: space-between;
+}
+.twit{
+    width: 48px;
+    height: 48px;
+
+    margin-top: 50px;
+}
